@@ -10,9 +10,6 @@ def commiss():
     commission = (sales * COMMISSION_RATE)
     print("The commission is $", commission)
 
-
-
-
 while keepGoing == "Y":
     keepGoing = input("Do you want to calculate another commission? Enter Y for yes, n for no. ")
     if keepGoing == "Y":
